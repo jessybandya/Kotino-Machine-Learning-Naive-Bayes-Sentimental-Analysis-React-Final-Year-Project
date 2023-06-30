@@ -1,0 +1,49 @@
+.video-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .video-card {
+    display: flex;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .thumbnail {
+    flex: 1;
+    position: relative;
+  }
+  
+  .thumbnail video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-info {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .video-info h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .video-info p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .video-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .video-info ul li {
+    font-size: 12px;
+  }
+  
