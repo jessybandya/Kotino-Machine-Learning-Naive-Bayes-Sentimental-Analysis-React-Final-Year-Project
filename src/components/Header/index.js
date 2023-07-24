@@ -176,7 +176,7 @@ const Header = () => {
         <Modal.Body>
           <center>
             <i style={{ fontWeight: "bold" }}>
-              Welcome to our website for JKUAT Facebook Posts' Comments Analysis
+              Welcome to our website for JKUAT Facebook & Twitter Posts' Comments Analysis
               System!
             </i>
           </center>
@@ -184,7 +184,7 @@ const Header = () => {
           <Typography variant="body2" color="text.secondary">
             Welcome to our innovative website where we bring together the power
             of Facebook, language translation, and sentiment analysis. Our
-            platform retrieve posts and comments from JKUAT Facebook pages and
+            platform retrieve posts and comments from JKUAT Facebook & Twitter pages and
             harness the potential of multilingual communication. By leveraging
             Google Translate, we enable seamless translation of various
             languages, breaking down language barriers and fostering global
@@ -197,7 +197,7 @@ const Header = () => {
             expressed in text. We go beyond mere translation to provide you with
             valuable insights into the sentiment behind each translated message.
             This empowers you to understand the overall mood, opinions, and
-            sentiments expressed within your Facebook page community.
+            sentiments expressed within your Facebook & Twitter page community.
           </Typography>
           <br />
           <Typography variant="body2" color="text.secondary">

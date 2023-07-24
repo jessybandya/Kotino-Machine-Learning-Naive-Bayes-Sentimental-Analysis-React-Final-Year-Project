@@ -62,7 +62,9 @@ export default function SignIn({setModalShowAuth}) {
         .then((auth) =>{
           setLoading(false)
           setModalShowAuth(false)
-          swal("Success!", "You have successfully logged in as Admin!", "success")
+          toast.success("Signed in successfully!",{
+            position: toast.POSITION.TOP_CENTER
+          })
         //   window.location.reload();
         })
         .catch((e) =>{
